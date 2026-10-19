@@ -1,0 +1,37 @@
+.about-intro {
+  padding-bottom: 1rem;
+}
+
+.about-intro__heading {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  max-width: 20ch;
+}
+
+.about-body__inner {
+  max-width: 62ch;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.about-body__paragraph {
+  font-size: 1.15rem;
+  color: hsl(var(--foreground));
+}
+
+.about-body__paragraph + .about-body__paragraph {
+  color: hsl(var(--muted-foreground));
+}
+
+.about-closing__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.about-closing__heading {
+  font-size: clamp(1.6rem, 4vw, 2.25rem);
+  font-weight: 800;
+}

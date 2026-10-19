@@ -1,0 +1,26 @@
+.site-footer {
+  border-top: 1px solid hsl(var(--border));
+  margin-top: 4rem;
+}
+
+.site-footer__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.site-footer__brand {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: hsl(var(--foreground));
+}
+
+.site-footer__note {
+  font-size: 0.9rem;
+  color: hsl(var(--muted-foreground));
+}
